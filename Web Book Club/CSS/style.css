@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Start navigation bar */
+header {
+    background-color: #00ABB3;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigtion {
+    display: flex;
+   align-items: center;
+}
+.navigtion ul{
+    display: flex;
+    align-items: center;
+   list-style: none;
+   gap: 1rem;
+   margin: 10px;
+}
+.navigtion a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 10px;
+    
+}
+
+.navigtion a:hover {
+    color: #EAEAEA
+}
+
+#form {
+    display: inline-block;
+}
+
+.inputFild {
+    border-radius: 6px;
+    height: 40px;
+    border: hidden;
+}
+
+.search-btn {
+    border-radius: 6px;
+    border: none;
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: #0dcaf0;
+    transition: 0.5s ease;
+}
+
+.search-btn:hover {
+    transform: scale(1.03, 1.1);
+}
+/* End navigation bar */
+
+/* Start div of the render card for API */
+.bookCard {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Serif;
+}
+
+.bookCard img {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bookCard h5 {
+    font-size: 20px;
+    font-weight: 800;
+} 
+
+.bookCard .btn {
+    width: 250px;
+}
+
+/* End div of the render card for API */
+
+/* Start Web Book Club */
+.section1 {
+    padding-top: 175px;
+    width: 100%;
+    background-color: #f5f6f9;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.writing p {
+    color: #20c997;
+}
+
+.writing h2 {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.writing h6 {
+    line-height: 1.5;
+    font-weight: unset;
+}
+/* End Web Book Club */
+
+/* Start Categories */
+.cards {
+    padding: 60px 200px;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    margin: 10px;
+    transition: 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.cards .content .card img {
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+.card-title {
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.card-title h5 {
+   line-height: 1.5;
+   font-weight: unset;  
+}
+/* End section Categories */
+
+/* Start section About */
+.section2 {
+    padding: 100px 100px;
+    display: flex;
+    width: 100%;
+    background-color: #f5f6f9;
+    align-items: center;
+}
+
+.image_a {
+    width: 40%;
+    height: 40%;
+    border-radius: 25px;
+    box-shadow: 10px 5px 15px 5px lightblue;
+}
+
+.about {
+    margin-left: 200px;
+}
+
+.about h3{
+    font-weight: 800;
+    font-size: 2.6em;
+}
+
+.about p {
+    line-height: 1.5;
+    font-weight: unset;
+}
+
+
+/* End section About */
+
+/* Start section Conact Us */
+.container2 {
+    padding: 80px 100px;
+    width: 100%;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+  
+}
+
+.sand form {
+    padding-right: 35px;
+}
+
+.sand input {
+  width: 200%;
+  border: 0;
+  height: 50px;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  padding-left: 25px;
+  color: #101010;
+  background: #f1f1f1;
+}
+
+.sand .input_message {
+    height: 120px;
+  border-radius: 15px;
+}
+
+.sand .btn { 
+margin-top: 10px;
+  padding: 12px 45px;
+  background-color: #0dcaf0;
+  color: #ffffff;
+  border-radius: 45px;
+  width: 100%;
+  transition: 0.7s ease;
+}
+
+.sand .btn:hover {
+    transform: scale(1.01);
+}
+
+.image3 {
+   margin-left: 200px;
+   width: 60%;
+}
+/* End section Conact Us */
+
+/* Start Footer */
+footer {
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    padding: 100px 100px;
+    background-color: #00ABB3;
+    color: white;
+}
+
+.info {
+    width: 25%;
+}
+
+.social-icons a {
+    padding-right: 10px;
+    color: white;
+    margin-bottom: 40px;
+} 
+
+.info h2 {
+    margin-bottom: 30px;
+} 
+
+.address {
+    margin-left: 200px;
+}
+
+.call-icons {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.call-icons a {
+    color: white;
+    padding: 5px;    
+}
+
+.call-icons a span {
+    margin-left: 10px;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+footer a:hover {
+    color: blue;
+}
+ /* End footer */ 
